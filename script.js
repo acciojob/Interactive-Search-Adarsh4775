@@ -3,6 +3,6 @@ function intSearch(){
 	const submit = document.querySelector(".btn");
 
 	submit.addEventListener("click",function() {
-         document.querySelector(".search").classList.add("active") ;
+         document.querySelector(".search").classList.add(".active") ;
 	});
 }
