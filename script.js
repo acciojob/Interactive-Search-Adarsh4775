@@ -1,9 +1,13 @@
-//your JS code here. If required.
-function intSearch(){
-	const submit = document.querySelector(".input");
+// Get references to the HTML elements
+const searchContainer = document.querySelector(".search");
+const searchButton = document.getElementById("searchButton");
+const searchInput = document.getElementById("searchInput");
 
-	submit.addEventListener("click",function() {
-         document.querySelector(".search").classList.add("active") ;
-	});
-}
-intSearch();
+// Toggle the "active" class on the search container
+searchButton.addEventListener("click", function () {
+    searchContainer.classList.toggle("active");
+    if (searchContainer.classList.contains("active")) {
+        // Focus on the input element after making it active
+        searchInput.focus();
+    }
+});
