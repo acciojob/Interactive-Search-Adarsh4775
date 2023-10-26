@@ -4,6 +4,6 @@ function intSearch(){
 	const submit = document.getElemntById("btn");
 
 	btn.addEventListener("click",function() {
-            
+         document.querySelector("body").style.color = "red";
 	});
 }
