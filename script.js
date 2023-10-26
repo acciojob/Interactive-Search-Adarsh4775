@@ -1,9 +1,8 @@
 //your JS code here. If required.
 function intSearch(){
-	const search = document.getElemntById("input");
-	const submit = document.getElemntById("btn");
+	const submit = document.querySelector(".btn");
 
-	btn.addEventListener("click",function() {
+	submit.addEventListener("click",function() {
          document.querySelector(".search").classList.add("active") ;
 	});
 }
