@@ -1,1 +1,11 @@
 /*  your css code here. If applicable */
+.search{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:500px;
+	
+}
+.input{
+	padding:8px;
+}
